@@ -5,8 +5,8 @@ let sonuc = document.body
 sonuc = document.getElementById("liste") //getElementById
 sonuc = document.getElementsByTagName("li")//getElementsByTagname
 sonuc = document.getElementsByClassName("item")//getElementsByClassName
-sonuc = document.querySelector("li")//querySelector
-sonuc = document.querySelectorAll('#liste')
+sonuc = document.querySelector("li")//querySelector ilki alır birden fazla ise yanına [0] gibi değer girilir
+sonuc = document.querySelectorAll('#liste') //birden fazla ise yanına [0] gibi değer girilir
 
 // let ogr_liste = ["berat","sertaç","efe"]
 // console.log(ogr_liste)

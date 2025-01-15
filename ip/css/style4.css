@@ -1,0 +1,15 @@
+.box{
+    max-width: 1400px;
+    min-width: 600px;
+    border: 2px solid red;
+    height: 100vh;
+}
+h4{
+    background-color: blueviolet;
+    height:100px;
+}
+span{
+    display: inline-block;
+    width: 250px;
+    border: 1px solid #000;
+}

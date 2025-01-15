@@ -1,0 +1,20 @@
+.body{
+    background-color: #8a8a8a;
+}
+/* ul{
+    border: 2px dotted #000;
+    list-style-type: circle;
+} */
+#branslar{
+    background-color: yellow !important; /* bu özellik başka özellik gelse dahi bu özellik korunur 
+} 
+.b1{
+    background-color: crimson;
+}
+.item{
+    border: 1px inset greenyellow;
+}
+.active{
+    font-size: 28px;
+    border: #00ff00; /*  #0f0  */
+}

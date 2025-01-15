@@ -1,0 +1,23 @@
+/* .container{
+    background-color: crimson;
+    display: flex;
+    flex-direction: row; /* colum dikey / row(varsayılan) yatay*/
+    /*flex-wrap: wrap; /* taşmaya izin verir*/
+    /* justify-content: flex-start; 
+    align-items: stretch; 
+
+}
+/* .box{
+    border: 2px solid black;
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 150px;
+}  */
+/* yatayda hizlama-flex (start-end-[sadece center]) space(between-around-eventy)*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 

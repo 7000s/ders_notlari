@@ -1,0 +1,6 @@
+/* img[alt="damyo"]:hover{
+    border:3px outset gold;
+} */
+img[alt="damyo"]{
+    border:3px outset gold;
+}

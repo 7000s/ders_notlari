@@ -1,0 +1,13 @@
+.container{
+    border: 1px dashed #111;
+    height: 700px;
+    padding: 20px;
+}
+.box{
+    border: 1px dashed #111;
+    height: 500px;
+    background-image: url("../img/msu_damyo_logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-position: center center;
+}
