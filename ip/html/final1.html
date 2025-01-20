@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            padding: 50px;
+            display: flex;
+            gap: 30px 10px;
+
+            flex-direction: column;
+        }
+        #btn{
+            display: inline-block;
+            width: 60px;
+            background-color: darkgreen;
+            color: #fff;
+            font-size: 26px;
+            font-weight: 900;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            height: 30px;
+        }
+        #todo{
+            height: 30px;
+            width: 220px;
+        }
+    </style>
+    <script src="../java/final1.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text" id="todo" placeholder="To Do List">
+            <a href="#" id="btn">+</a>
+        </div>
+            <ul id="liste">
+                <li class="item">Yabanci Dil Öğren</li>
+                <li class="item">Tiyatroya Git</li>
+            </ul>
+    </div>
+</body>
+</html>

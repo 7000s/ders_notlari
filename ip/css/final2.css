@@ -1,0 +1,26 @@
+/*
+Box Genişlik ve Yükseklikleri : 200px
+Kutular Arası Boşluk : 30px
+Border : 2px düz çizgi
+Kenar Yumuşatma : 10px
+*/
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 920px;
+    border: 2px solid #000;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: calc(50% - 15px);
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: coral;
+}
