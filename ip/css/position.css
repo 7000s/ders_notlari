@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid red;
+    margin: 50px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+
+}
+/* .b1{
+    background-color: blueviolet;
+    transition: 0.3s linear all;
+} */
+/* .b2{
+    background-color: rgb(7, 150, 26);
+    /* left: 30px;
+    top: 50px;
+    z-index: -2; 
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: -500px;
+    transition: 0.3s linear all;
+} */
+.b3{
+    background-color: rgb(9, 102, 126);
+    position: sticky;
+    top: 0;
+}
+/* .b1:hover~.b2{
+    right: 0;
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
