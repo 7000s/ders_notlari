@@ -70,4 +70,15 @@ print(u1.kenar_sayisi,u1.hacim,u1.tipi)
 u2 = Ucgen(3,"4br","Kırmızı","eşkenar")
 u2.renkBilgi()
 
+#random modülü
+import random
+#from random import *
 
+sifre_karakterleri = []
+
+for i in range(16):
+    karakter = chr(random.randint(33,126))
+    sifre_karakterleri.append(karakter)
+print(sifre_karakterleri)
+sifre = ''.join(sifre_karakterleri)
+print(sifre)
